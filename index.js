@@ -39,7 +39,7 @@ app.get("/:shortid", async (req, res) => {
   res.redirect(rec.full);
 });
 
-mongoose.connect("mongodb://0.0.0.0/urlShortner", {
+mongoose.connect("mongodb+srv://saket:<password>@cluster0.gii3i3r.mongodb.net/", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
